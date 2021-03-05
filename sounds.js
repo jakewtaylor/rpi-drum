@@ -1,5 +1,10 @@
 const Sound = require('node-aplay');
 
-const kick = new Sound('./samples/kick.wav');
+const soundNames = ['kick', 'snare', 'closed', 'open', 'cymbal', 'clap'];
 
-kick.play();
+module.exports = soundNames.map(name => new Sound(`./samples/${name}.wav`));
+
+// module.exports = soundNames.reduce((acc, name) => ({
+//     ...acc,
+//     [name]: new Sound(`./samples/${name}.wav`),
+// }), {});
