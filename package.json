@@ -1,0 +1,14 @@
+{
+  "name": "rpi-drum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jakewtaylor/rpi-drum.git",
+  "author": "Jake Taylor <me@jaketaylor.co>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "adafruit-mpr121": "^1.0.0"
+  }
+}
