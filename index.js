@@ -9,7 +9,7 @@ mpr121.on('touch', (pin) => {
     const { name, sound } = sounds[pin] || {};
 
     if (name && sound) {
-        console.log(`${sound}!`);
+        console.log(`${name}!`);
         sound.play();
     }
 });
