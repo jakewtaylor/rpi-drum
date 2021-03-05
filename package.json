@@ -9,6 +9,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "adafruit-mpr121": "^1.0.0"
+    "adafruit-mpr121": "^1.0.0",
+    "node-aplay": "^1.0.3"
   }
 }
